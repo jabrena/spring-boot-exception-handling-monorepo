@@ -44,7 +44,7 @@
 				<configuration>
 					<classifier>${repackage.classifier}</classifier>
 					<image>
-						<name>ghcr.io/jabrena/${project.artifactId}:${project.version}</name>
+						<name>docker.pkg.github.com/jabrena/${project.artifactId}:${project.version}</name>
 						<publish>true</publish>
 						<!--
 						<builder>paketobuildpacks/builder:tiny</builder>
