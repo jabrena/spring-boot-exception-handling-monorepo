@@ -46,16 +46,18 @@
 					<image>
 						<name>ghcr.io/jabrena/${project.artifactId}:${project.version}</name>
 						<publish>true</publish>
+						<!--
 						<builder>paketobuildpacks/builder:tiny</builder>
 						<env>
 							<BP_NATIVE_IMAGE>true</BP_NATIVE_IMAGE>
 						</env>
+						-->
 					</image>
 					<docker>
 						<publishRegistry>
 							<username>jabrena</username>
 							<password>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</password>
-							<url>https://ghcr.io</url>
+							<url>docker.pkg.github.com</url>
 						</publishRegistry>
 					</docker>
 				</configuration>
