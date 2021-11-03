@@ -44,7 +44,7 @@
 				<configuration>
 					<classifier>${repackage.classifier}</classifier>
 					<image>
-						<name>docker.pkg.github.com/jabrena/${project.artifactId}</name>
+						<name>ghcr.io/jabrena/${project.artifactId}:${project.version}</name>
 						<publish>true</publish>
 						<!--
 						<builder>paketobuildpacks/builder:tiny</builder>
@@ -57,7 +57,7 @@
 						<publishRegistry>
 							<username>jabrena</username>
 							<password>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</password>
-							<url>docker.pkg.github.com</url>
+							<url>ghcr.io</url>
 						</publishRegistry>
 					</docker>
 				</configuration>
