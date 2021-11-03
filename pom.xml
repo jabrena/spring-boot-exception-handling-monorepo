@@ -54,7 +54,7 @@
 					<docker>
 						<publishRegistry>
 							<username>jabrena</username>
-							<token>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</token>
+							<password>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</password>
 							<url>https://ghcr.io</url>
 						</publishRegistry>
 					</docker>
