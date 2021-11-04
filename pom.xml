@@ -43,9 +43,11 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<classifier>${repackage.classifier}</classifier>
-					<!--
 					<image>
 						<name>ghcr.io/jabrena/${project.artifactId}:${project.version}</name>
+					</image>
+					<!--
+					<image>
 						<publish>true</publish>
 						<builder>paketobuildpacks/builder:tiny</builder>
 						<env>
