@@ -43,15 +43,14 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<classifier>${repackage.classifier}</classifier>
+					<!--
 					<image>
 						<name>ghcr.io/jabrena/${project.artifactId}:${project.version}</name>
-						<!--
 						<publish>true</publish>
 						<builder>paketobuildpacks/builder:tiny</builder>
 						<env>
 							<BP_NATIVE_IMAGE>true</BP_NATIVE_IMAGE>
 						</env>
-						-->
 					</image>
 					<docker>
 						<publishRegistry>
@@ -59,6 +58,7 @@
 							<url>ghcr.io</url>
 						</publishRegistry>
 					</docker>
+					-->
 				</configuration>
 			</plugin>
 			<plugin>
