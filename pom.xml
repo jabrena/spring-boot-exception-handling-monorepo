@@ -16,7 +16,7 @@
 	<properties>
 		<java.version>17</java.version>
 		<repackage.classifier/>
-		<spring-native.version>0.11.0-RC1</spring-native.version>
+		<spring-native.version>0.11.1</spring-native.version>
 		<native-buildtools.version>0.9.7.1</native-buildtools.version>
 	</properties>
 	<dependencies>
